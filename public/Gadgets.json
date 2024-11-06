@@ -1,0 +1,156 @@
+[
+    {
+        "product_id": "1",
+        "product_title": "UltraBook Pro 14",
+        "product_image": "https://dlcdnwebimgs.asus.com/gain/de9b7594-6143-4370-a14c-7220ac3b08c6/",
+        "category": "Laptop",
+        "price": 899,
+        "description": "UltraBook Pro 14 is designed for professionals who value performance and portability. With a slim and lightweight design, it combines a powerful Intel i7 processor, ample RAM, and a crystal-clear 14-inch Full HD display. Ideal for on-the-go productivity, it also features fast SSD storage and long battery life, making it a top choice for both work and entertainment.",
+        "specification": "Intel i7, 16GB RAM, 512GB SSD, 14-inch Full HD display",
+        "availability": true,
+        "ratings": 4.5
+    },
+    {
+        "product_id": "2",
+        "product_title": "Gaming Beast X15",
+        "product_image": "https://m.media-amazon.com/images/I/512kW9sfo6L._AC_UF894,1000_QL80_.jpg",
+        "category": "Laptop",
+        "price": 1299,
+        "description": "The Gaming Beast X15 is a powerhouse built for gamers who demand the best. Equipped with a cutting-edge Intel i9 processor and an Nvidia RTX 3070 GPU, this laptop provides smooth gameplay at high settings. Its advanced cooling system ensures optimal performance even during extended gaming sessions, and the high-refresh-rate display offers an immersive experience, making it the ultimate choice for serious gamers.",
+        "specification": "Intel i9, 32GB RAM, 1TB SSD, Nvidia RTX 3070",
+        "availability": false,
+        "ratings": 4.7
+    },
+    {
+        "product_id": "3",
+        "product_title": "WorkStation Pro 17",
+        "product_image": "https://ae01.alicdn.com/kf/Sa46a32164a7f40738f13f07edcf884620.jpg_960x960.jpg",
+        "category": "Laptop",
+        "price": 1599,
+        "description": "Built for demanding tasks, the WorkStation Pro 17 features a massive 17-inch 4K display and a robust Intel Xeon processor, making it perfect for creative professionals and engineers. With high-capacity RAM and storage, it handles intensive tasks like 3D rendering, video editing, and data analysis effortlessly. Its powerful battery and durable design allow it to function as a reliable portable workstation.",
+        "specification": "Intel Xeon, 64GB RAM, 1TB SSD, 17-inch 4K display",
+        "availability": true,
+        "ratings": 4.8
+    },
+    {
+        "product_id": "4",
+        "product_title": "CompactBook Air 13",
+        "product_image": "https://dimensiva.com/wp-content/uploads/edd/2022/10/macbook-pro-13-inch-2022-by-apple.jpg",
+        "category": "Laptop",
+        "price": 749,
+        "description": "The CompactBook Air 13 is designed for users who need a portable, efficient laptop for everyday tasks. With an Intel i5 processor and 8GB RAM, it provides seamless performance for web browsing, document editing, and media consumption. Its battery life extends through a full day, making it ideal for students and professionals alike.",
+        "specification": "Intel i5, 8GB RAM, 256GB SSD, 13-inch Full HD display",
+        "availability": true,
+        "ratings": 4.3
+    },
+    {
+        "product_id": "5",
+        "product_title": "SmartPhone Z10",
+        "product_image": "https://i.ebayimg.com/images/g/qmQAAOSwsqFk-CYL/s-l1200.png",
+        "category": "Mobile",
+        "price": 499,
+        "description": "The SmartPhone Z10 offers a great blend of power and versatility with its advanced AI-powered camera system, enabling beautiful shots in various conditions. Equipped with 6GB RAM and a 6.4-inch OLED display, it provides vibrant visuals and smooth multitasking, perfect for photography enthusiasts and tech-savvy users.",
+        "specification": "6GB RAM, 128GB Storage, 6.4-inch OLED display",
+        "availability": true,
+        "ratings": 4.6
+    },
+    {
+        "product_id": "6",
+        "product_title": "SmartPhone Max 20",
+        "product_image": "https://image-us.samsung.com/us/smartphones/galaxy-s23/images/gallery/lavender/dm2/01-DM2-Lavender-PDP-1600x1200.jpg?$default-400-jpg$",
+        "category": "Mobile",
+        "price": 799,
+        "description": "The SmartPhone Max 20 is a premium mobile device featuring 5G connectivity and an advanced Super Retina display. With its sleek design, impressive battery life, and top-tier performance, it’s perfect for users who want high-quality media, fast processing, and long-lasting power.",
+        "specification": "8GB RAM, 256GB Storage, 6.7-inch Super Retina display",
+        "availability": false,
+        "ratings": 4.7
+    },
+    {
+        "product_id": "7",
+        "product_title": "BudgetPhone Lite 5G",
+        "product_image": "https://rmtibd.com/wp-content/uploads/2024/02/OnePlus-12-Green.jpg",
+        "category": "Mobile",
+        "price": 299,
+        "description": "BudgetPhone Lite 5G is an affordable option for users looking to experience 5G without breaking the bank. It has all essential features, including a sharp 6.1-inch display and decent processing power, making it suitable for everyday tasks like streaming, social media, and light gaming.",
+        "specification": "4GB RAM, 64GB Storage, 6.1-inch LCD display",
+        "availability": true,
+        "ratings": 4.2
+    },
+    {
+        "product_id": "8",
+        "product_title": "Wireless Mouse",
+        "product_image": "https://i5.walmartimages.com/seo/JOUALY-Wireless-Gaming-Mouse-2-4-GHz-USB-Receiver-Chargeable-Portable-Silent-Mouse-4-Adjustable-DPI-Laptop-Mac-MacBook-Android-PC-Black_b491b733-f7b0-409e-b8c4-21af8fa76dbf.3cfd2117347ec04334aa28e3a306a139.jpeg",
+        "category": "Accessories",
+        "price": 429,
+        "description": "This ergonomic wireless mouse is designed for comfort and precision. It features adjustable DPI settings and long-lasting battery life, making it a reliable choice for daily use in both work and gaming environments.",
+        "specification": "Bluetooth 5.0, Adjustable DPI, USB-C charging",
+        "availability": true,
+        "ratings": 4.4
+    },
+    {
+        "product_id": "9",
+        "product_title": " Headphones",
+        "product_image": "https://m.media-amazon.com/images/I/71EgwOBrrcL._AC_UF1000,1000_QL80_.jpg",
+        "category": "Accessories",
+        "price": 399,
+        "description": "These noise-cancelling headphones deliver rich sound quality and effective noise cancellation, ideal for commuters and music lovers. With a comfortable over-ear design, Bluetooth 5.1, and up to 30 hours of battery life, they offer a premium audio experience for work and leisure.",
+        "specification": "Bluetooth 5.1, 30-hour battery life, Built-in mic",
+        "availability": false,
+        "ratings": 4.6
+    },
+    {
+        "product_id": "10",
+        "product_title": "USB-C Hub",
+        "product_image": "https://m.media-amazon.com/images/I/61U5nfjrT0L.jpg",
+        "category": "Accessories",
+        "price": 549,
+        "description": "The USB-C Hub is a versatile accessory, providing multiple ports including USB-A, HDMI, and SD card slots. It’s a perfect companion for laptops with limited ports, allowing users to connect various devices effortlessly for increased productivity.",
+        "specification": "4 USB-A ports, 1 HDMI port, SD card reader",
+        "availability": true,
+        "ratings": 4.5
+    },
+    {
+        "product_id": "11",
+        "product_title": "Portable Power Bank",
+        "product_image": "https://gadgetking.com.bd/wp-content/uploads/2023/11/Joyroom-JR-QP191-10000mAh-Power-Bank-Price-in-Bangladesh.jpg",
+        "category": "Accessories",
+        "price": 439,
+        "description": "This high-capacity portable power bank is designed to keep your devices charged on the go. With a 20000mAh battery, it provides multiple charges for your smartphone and other gadgets. It features fast-charging support and multiple ports, allowing you to charge several devices simultaneously.",
+        "specification": "20000mAh, Dual USB output, Fast-charging support, LED battery indicator",
+        "availability": true,
+        "ratings": 4.6
+    },
+    {
+        "product_id": "12",
+        "product_title": "Bluetooth Speaker",
+        "product_image": "https://img.drz.lazcdn.com/static/bd/p/cd346e53c17d7df765622d246c366953.jpg_720x720q80.jpg_.webp",
+        "category": "Accessories",
+        "price": 324,
+        "description": "Compact and powerful, this Bluetooth mini speaker is perfect for music on the go. Despite its small size, it offers impressive sound quality and battery life, making it a great companion for outdoor activities or small gatherings.",
+        "specification": "Bluetooth 5.0, 8-hour playtime, Built-in microphone, Water-resistant",
+        "availability": true,
+        "ratings": 4.4
+    },
+    {
+        "product_id": "13",
+        "product_title": "Macbook Pro ",
+        "product_image": "https://saudewala.in/cdn/shop/collections/Laptop.jpg?v=1682921339&width=1296",
+        "category": "Laptop",
+        "price": 999,
+        "description": "Macbook Pro  is designed for professionals who value performance and portability. With a slim and lightweight design, it combines a powerful Intel i7 processor, ample RAM, and a crystal-clear 14-inch Full HD display. Ideal for on-the-go productivity, it also features fast SSD storage and long battery life, making it a top choice for both work and entertainment.",
+        "specification": "Intel i7, 16GB RAM, 512GB SSD, 14-inch Full HD display",
+        "availability": true,
+        "ratings": 4.5
+    },
+    {
+        "product_id": "14",
+        "product_title": "MSI GF63",
+        "product_image": "https://mcsolution.com.bd/wp-content/uploads/2024/07/Microsoft-surface-laptop-7-Black-7th-Edition-a-Copilot-PC-for-Business-Snapdragon%C2%AE-X-Plus-10-Core-Snapdragon%C2%AE-X-Elite-12-Core-Qualcomm%C2%AE-Adreno%E2%84%A2-GPU-price-in-Bangladesh-MC-Solution-BD-1200x1452.webp",
+        "category": "Laptop",
+        "price": 1099,
+        "description": "MSI GF63 is designed for professionals who value performance and portability. With a slim and lightweight design, it combines a powerful Intel i7 processor, ample RAM, and a crystal-clear 14-inch Full HD display. Ideal for on-the-go productivity, it also features fast SSD storage and long battery life, making it a top choice for both work and entertainment.",
+        "specification": "Intel i7, 16GB RAM, 512GB SSD, 14-inch Full HD display",
+        "availability": true,
+        "ratings": 4.5
+    }
+]
