@@ -1,8 +1,6 @@
-# React + Vite
+# Gadget Haven
+Gadget Haven is a one-stop shop for all your tech needs, offering a wide range of laptops, smartphones, and accessories to cater to both personal and professional requirements. Whether you’re a student, a working professional, or a tech enthusiast, Gadget Haven has something for everyone.
+# Live Link:
+# https://adorable-babka-fe59bf.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
