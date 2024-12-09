@@ -7,6 +7,7 @@ import Carts from "../Carts/Carts";
 import { IoIosCloudDone } from "react-icons/io";
 import { deletestorecartlist, getStoreCartList, getStoreWishList } from "../Utility/Utility";
 import toast from "react-hot-toast";
+import { Helmet } from "react-helmet-async";
 
 
 
@@ -50,7 +51,7 @@ const Dashboard = () => {
     }, [])
 
 
-    const [ispurchs,setispurchs]=useState(false)
+    const [ispurchs, setispurchs] = useState(false)
     const handlepurches = (sum) => {
         if (sum == 0) {
             toast.error("You Need to add some product")
@@ -95,7 +96,7 @@ const Dashboard = () => {
         sum = sum + infoprice
     }
 
-   
+
 
 
 
@@ -105,6 +106,9 @@ const Dashboard = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Dashboard | Gadget Haven</title>
+            </Helmet>
             <div className="bg-[#9538E2] pt-8 px-8 lg:pt-16 lg:px-16">
                 <h1 className="text-4xl text-center text-white font-bold">Dashboard</h1>
                 <p className="text-center text-xl text-white mt-4 ">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>

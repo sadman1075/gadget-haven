@@ -1,8 +1,12 @@
 
+import { Helmet } from "react-helmet-async";
 import about from "../../../public/assets/about.jpg"
 const AboutUs = () => {
     return (
         <div>
+            <Helmet>
+                <title>About | Gadget Haven</title>
+            </Helmet>
             <div className="hero bg-white ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img

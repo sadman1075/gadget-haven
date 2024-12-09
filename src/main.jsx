@@ -15,50 +15,51 @@ import GadgetDetails from './Components/GadgetDetails/GadgetDetails.jsx';
 import Gadgets from './Components/Gadgets/Gadgets.jsx';
 import AboutUs from './Components/AboutUs/AboutUs.jsx';
 import ErrorPage from './Components/ErrorPage/ErrorPage.jsx';
+import { HelmetProvider } from 'react-helmet-async';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element:<Root></Root>,
-    errorElement:<ErrorPage></ErrorPage>,
+    element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
         element: <Home></Home>,
-        loader:()=>fetch("../Categories.json"),
-        
-        children:[
+        loader: () => fetch("../Categories.json"),
+
+        children: [
           {
-            path:"/",
-            element:<Gadgets></Gadgets>
-           
+            path: "/",
+            element: <Gadgets></Gadgets>
+
           },
           {
-            path:"/category/:category",
-            element:<Gadgets></Gadgets>
-           
+            path: "/category/:category",
+            element: <Gadgets></Gadgets>
+
           }
         ]
 
       },
       {
         path: "/statistics",
-        element:<Statistics></Statistics>,
-        loader:()=>fetch("/Gadgets.json")
+        element: <Statistics></Statistics>,
+        loader: () => fetch("/Gadgets.json")
       },
       {
-        path:"/dashboard",
-        element:<Dashboard></Dashboard>,
-        loader:()=>fetch("/Gadgets.json")
+        path: "/dashboard",
+        element: <Dashboard></Dashboard>,
+        loader: () => fetch("/Gadgets.json")
       },
       {
-        path:"/gadget-details/:gadgetId",
-        element:<GadgetDetails></GadgetDetails>,
-        loader:()=>fetch("/Gadgets.json")
-      },{
-        path:"/about",
-        element:<AboutUs></AboutUs>
+        path: "/gadget-details/:gadgetId",
+        element: <GadgetDetails></GadgetDetails>,
+        loader: () => fetch("/Gadgets.json")
+      }, {
+        path: "/about",
+        element: <AboutUs></AboutUs>
       }
     ]
   }
@@ -68,8 +69,10 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}>
-      <App />
-    </RouterProvider>
+    <HelmetProvider>
+      <RouterProvider router={router}>
+        <App />
+      </RouterProvider>
+    </HelmetProvider>
   </StrictMode>,
 )
